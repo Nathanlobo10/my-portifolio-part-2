@@ -1,0 +1,35 @@
+h1 {
+    color: brown;
+}
+
+/** {
+    border: solid;
+}*/
+
+.header {
+    background-color: violet;   
+    display:flex;
+    justify-content: space-between; 
+}
+
+.footer {
+     background-color: teal;
+     display:flex;
+     justify-content: space-evenly;
+}
+
+.grid {
+     background-color: darkgrey;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+}
+
+.grid img{
+    border: 5px solid darkred;
+    border-radius: 30px;
+}
+
+.item {
+    background-color: gainsboro;
+}
